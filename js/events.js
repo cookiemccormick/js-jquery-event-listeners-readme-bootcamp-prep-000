@@ -10,9 +10,17 @@ function frameIt() {
     $('img').addClass('tasty')
   })
 }
+
+function pressIt() {
+  $(document).on('keydown', function(key) {
+    if (key.which === )
+  })
+}
+
 $(document).ready(function(){
 
 // call functions here
 getIt()
 frameIt()
+
 });
