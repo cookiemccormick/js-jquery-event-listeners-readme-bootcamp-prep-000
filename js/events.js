@@ -1,4 +1,5 @@
 //define functions here
+
 function getIt() {
   $('p').on("click", function(click) {
     alert('Hey!')
@@ -16,6 +17,14 @@ function pressIt() {
     if (key.which === 103) {
       alert('G was pressed')
     }
+  })
+}
+
+function submitIt() {
+  $("form").on("submit", function() {
+    
+  })
+    
   })
 }
 
