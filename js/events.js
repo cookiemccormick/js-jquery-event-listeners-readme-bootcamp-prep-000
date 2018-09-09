@@ -1,9 +1,10 @@
 //define functions here
 function getIt() {
-  $('p').on( function("eventname") {
-    alert("Hey!")
+  $('p').on("click", function(click) {
+    alert('Hey!')
   })
 }
+
 $(document).ready(function(){
 
 // call functions here
