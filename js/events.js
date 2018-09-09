@@ -6,10 +6,10 @@ function getIt() {
 }
 
 function frameIt() {
-  $('.tasty').on('load', function(load) {
+  $('tasty').on('load', function(load) {
   })
 }
-$(document).ready(function(){
+$(document).resady(function(){
 
 // call functions here
 getIt()
