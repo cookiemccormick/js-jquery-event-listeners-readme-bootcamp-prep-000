@@ -6,7 +6,9 @@ function getIt() {
 }
 
 function frameIt() {
-  
+  $('tasty').on('load', function(load) {
+    
+  })
 }
 $(document).ready(function(){
 
