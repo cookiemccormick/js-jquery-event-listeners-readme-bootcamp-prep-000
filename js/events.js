@@ -1,6 +1,6 @@
 //define functions here
 function getIt() {
-  $('p').on( function(click) {
+  $('p').on( function("eventname") {
     alert("Hey!")
   })
 }
