@@ -9,7 +9,7 @@ function frameIt() {
   $('tasty').on('load', function(load) {
   })
 }
-$(document).resady(function(){
+$(document).ready(function(){
 
 // call functions here
 getIt()
